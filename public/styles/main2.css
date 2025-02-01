@@ -1,0 +1,18 @@
+table,tr,td{
+
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 1rem;
+}
+
+.opposite{
+    background-color: lightslategrey;
+    color: black;
+    color: linen;
+}
+
+.opposite a{
+    color: black;
+    font-weight: bold;
+}
+
