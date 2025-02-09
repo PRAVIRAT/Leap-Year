@@ -6,7 +6,7 @@ $("button").on("click",
 
         year = $(".yeear").val().trim();
 
-        if (!year || isNaN(year)) {
+        if (!year || isNaN(year) || year.length !== 4) {
             alert("Please enter a valid YEAR");
             $(".yeear").val("");
             return;
